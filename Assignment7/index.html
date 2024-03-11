@@ -48,7 +48,41 @@
           <td>5:00 PM</td>
       </tr>
   </table>
-  
+  <h2>Marketing Options</h2>
+
+<form action="/submit" method="post">
+    <p>Marketing Option:</p>
+
+    <label>
+        <input type="radio" name="marketingOption" value="socialMedia" required>
+        Social Media Marketing
+    </label>
+
+
+    <label>
+        <input type="radio" name="marketingOption" value="email" required>
+        Email Marketing
+    </label>
+
+    <label>
+        <input type="radio" name="marketingOption" value="website" required>
+        Website Marketing
+    </label>
+
+    <label>
+        <input type="radio" name="marketingOption" value="other" id="otherOption" required>
+        Other:
+        <input type="text" id="otherText" name="otherText" disabled>
+    </label>
+
+    <script>
+        document.getElementById('otherOption').addEventListener('change', function() {
+            document.getElementById('otherText').disabled = !this.checked;
+        });
+    </script>
+    <input type="submit" value="Submit">
+</form>
+
      </ul>
      <form action="Page1.html" method="post">
       <p>Subscribe to our e-mail list:</p>
