@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taco Time!</title>
+    <style>
+        /* Internal CSS Stylesheet */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        /* Class Selector */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* ID Selector */
+        #header {
+            background-color: #ff8c00;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Different Background Colors */
+        .taco-section {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Different Font Colors */
+        .taco-title {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* Position */
+        #footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Opacity */
+        .image-container {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <h1>Taco Time!</h1>
+        </header>
+        
+        <section class="taco-section">
+            <h2 class="taco-title">Hard Shell Tacos</h2>
+            <div class="content">
+                <p>Hard shell tacos are a crunchy delight! They are made with a crispy corn tortilla shell filled with savory meats, fresh vegetables, and topped with cheese and salsa.</p>
+                <div class="image-container">
+                    <img src="hard_shell_tacos.jpg" alt="Hard Shell Tacos" width="300">
+                </div>
+            </div>
+        </section>
+
+        <section class="taco-section">
+            <h2 class="taco-title">Soft Shell Tacos</h2>
+            <div class="content">
+                <p>Soft shell tacos are a delicious alternative! They feature a soft flour tortilla filled with tender meats, flavorful beans, and topped with lettuce, tomatoes, and sour cream.</p>
+                <div class="image-container">
+                    <img src="soft_shell_tacos.jpg" alt="Soft Shell Tacos" width="300">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <p>&copy; 2024 Taco Time. All rights reserved.</p>
+    </footer>
+</body>
+</html>
