@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Recipes</title>
+</head>
+<body>
+    <header>
+        <h1>Italian Recipes</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#spaghetti">Spaghetti</a></li>
+            <li><a href="#fettuccine-alfredo">Fettuccine Alfredo</a></li>
+            <li><a href="#lasagna">Lasagna</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="spaghetti">
+            <h2>Spaghetti Recipe</h2>
+            <p>Here is a simple recipe for spaghetti:</p>
+            <ul>
+                <li>Boil water in a large pot.</li>
+                <li>Add salt and spaghetti to the boiling water.</li>
+                <li>Cook spaghetti until al dente.</li>
+                <li>Drain spaghetti and toss with your favorite sauce.</li>
+                <li>Serve hot.</li>
+            </ul>
+        </section>
+
+        <section id="fettuccine-alfredo">
+            <h2>Fettuccine Alfredo Recipe</h2>
+            <p>Here is a delicious recipe for fettuccine alfredo:</p>
+            <ul>
+                <li>Cook fettuccine according to package instructions.</li>
+                <li>In a saucepan, melt butter over medium heat.</li>
+                <li>Add minced garlic and cook until fragrant.</li>
+                <li>Stir in heavy cream and grated Parmesan cheese.</li>
+                <li>Season with salt and pepper to taste.</li>
+                <li>Combine cooked fettuccine with the sauce.</li>
+                <li>Serve hot, garnished with chopped parsley.</li>
+            </ul>
+        </section>
+
+        <section id="lasagna">
+            <h2>Lasagna Recipe</h2>
+            <p>Here is a classic recipe for lasagna:</p>
+            <ul>
+                <li>Preheat oven to 375°F (190°C).</li>
+                <li>Cook lasagna noodles according to package instructions.</li>
+                <li>In a skillet, cook ground beef with onions and garlic until browned.</li>
+                <li>Stir in tomato sauce and Italian seasoning.</li>
+                <li>In a baking dish, layer lasagna noodles, meat sauce, and ricotta cheese.</li>
+                <li>Repeat layers and top with mozzarella cheese.</li>
+                <li>Bake for 30-35 minutes until bubbly and golden.</li>
+                <li>Let it cool for a few minutes before serving.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Enjoy these delicious Italian recipes!</p>
+    </footer>
+</body>
+</html>
